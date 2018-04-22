@@ -60,9 +60,9 @@ section{
 
 #buttonSprite{
   background-image: url('form-elements-sprite.png');
-  background-size: 400px;
+  background-size: 600px;
   background-repeat: no-repeat;
   height: 100px;
   width: 130px;
-  background-position: -270px -30px;
+  background-position: -420px -70px;
 }
