@@ -1,64 +1,69 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    
-    <header>
-      <h1>UI Challenge - Custom Form Elements</h1>
-    </header>
-    <main>
-      <p>NOTE: <b>DO NOT</b> attempt to directly style radio buttons, checkboxes, or the custom select box - you'll need to use the provided sprite sheet and a series of custom JS methods to complete this challenge... dont worry if it's not perfect - styling form elements can be tricky and you'll need to use your best judgement at times!</p>
-      <!-- input field -->
-      <form id="input1">
-        <fieldset>
-          <label for="inputOne">text input</label>
-          <input type="text" name="inputOne" id="textInput" placeholder="placeholder text" required>
-        </fieldset>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>UI Challenge - Custom Form Elements</h1>
+  </header>
+  <main>
+    <p>NOTE: <b>DO NOT</b> attempt to directly style radio buttons, checkboxes, or the custom select box - you'll need
+      to use the provided sprite sheet and a series of custom JS methods to complete this challenge... dont worry if
+      it's not perfect - styling form elements can be tricky and you'll need to use your best judgement at times!</p>
+    <!-- input field -->
+    <form id="input1">
+      <fieldset>
+        <label for="inputOne">text input</label>
+        <input type="text" name="inputOne" id="textInput" placeholder="placeholder text" required>
+      </fieldset>
+    </form>
+    <!-- select box -->
+    <form action="">
+      <label for="selectBox1">select box</label>
+      <select name="options">
+        <option value="" selected="selected">please select an option...</option>
+        <option value="option1">option1</option>
+        <option value="option2">option2</option>
+        <option value="option3">option3</option>
+        <option value="option4">option4</option>
+        <option value="option5">option5</option>
+      </select>
+    </form>
+
+    <!-- checkbox -->
+    <section id="checkboxSprite">
+      <form>
+        <label for="checkbox1">checkbox</label>
+        <input type="checkbox" name="checkbox1" style="display: none;" required>
       </form>
-      <!-- select box -->
-      <form action="">
-        <label for="selectBox1">select box</label>
-        <select name="options">
-          <option value="" selected="selected">please select an option...</option>
-          <option value="option1">option1</option>
-          <option value="option2">option2</option>
-          <option value="option3">option3</option>
-          <option value="option4">option4</option>
-          <option value="option5">option5</option>          
-        </select>
+    </section>
+
+    <!-- checkbox -->
+    <section id="radioSprite">
+      <form>
+        <label for="radio1">radio</label>
+        <input type="checkbox" name="radio1" style="display: none;" required>
       </form>
+    </section>
 
-      <!-- checkbox -->
-      <section id="checkboxSprite">
-        <form>
-          <label for="checkbox1">checkbox</label>
-          <input type="checkbox" name="checkbox1" style="display: none;" required>
-        </form>
-      </section>
+    <!-- button -->
+    <section id="buttonSprite">
+      <form>
+        <label for="button1">arrows</label>
+        <input type="checkbox" name="button1" style="display: none;" required>
+      </form>
+    </section>
 
-      <!-- checkbox -->
-      <section id="radioSprite">
-        <form>
-          <label for="radio1">radio</label>
-          <input type="checkbox" name="radio1" style="display: none;" required>
-        </form>
-      </section>
+  </main>
+  <footer>
 
-      <!-- button -->
-      <section id="buttonSprite">
-        <form>
-          <label for="button1">arrows</label>
-          <input type="checkbox" name="button1" style="display: none;" required>
-        </form>
-      </section>
+  </footer>
+  <script src="app.js"></script>
+</body>
 
-    </main>
-    <footer>
-
-    </footer>
-    <script src="app.js"></script>
-  </body>
 </html>
